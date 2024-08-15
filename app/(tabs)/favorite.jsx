@@ -65,21 +65,6 @@ export default function Favorite() {
             </View>
           )}
         />
-        {getFavPetIds?.length == 0 && (
-          <View style={{ justifyContent: "center", alignItems: "center" }}>
-            <Text
-              style={{
-                textAlign: "center",
-                fontFamily: "outfit-medium",
-                fontSize: 30,
-                marginTop: "60%",
-                color: Colors.PRIMARY,
-              }}
-            >
-              No Favorite Post's Yet
-            </Text>
-          </View>
-        )}
       </View>
     </SafeAreaView>
   );
