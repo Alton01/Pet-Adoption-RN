@@ -5,10 +5,10 @@
     "scheme": "adopt-pet",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/login.png",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/login.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/login.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "permissions": [
@@ -44,7 +44,6 @@
       "eas": {
         "projectId": "03bdbcf9-4509-4811-adb8-e4bfb559e56b"
       }
-    },
-    "owner": "alton123"
+    }
   }
 }
