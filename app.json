@@ -22,7 +22,8 @@
       },
       "permissions": [
         "android.permission.RECORD_AUDIO"
-      ]
+      ],
+      "package": "com.alton123.adoptpet"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -39,6 +40,9 @@
     "extra": {
       "router": {
         "origin": false
+      },
+      "eas": {
+        "projectId": "25d936e1-5219-4c40-836f-0ee1aa8626bc"
       }
     }
   }
