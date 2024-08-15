@@ -19,7 +19,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/login.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.alton123.adoptpet"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,6 +36,15 @@
           "photosPermission": "The app accesses your photos to let you share them with your friends."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "03bdbcf9-4509-4811-adb8-e4bfb559e56b"
+      }
+    },
+    "owner": "alton123"
   }
 }

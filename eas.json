@@ -1,0 +1,26 @@
+{
+    "build": {
+      "preview": {
+        "android": {
+          "buildType": "apk"
+        },
+        "env":  {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY" : "pk_test_YWNlLWJ1Y2stMjQuY2xlcmsuYWNjb3VudHMuZGV2JA",
+        "EXPO_PUBLIC_FIREBASE_API_KEY" : "AIzaSyBKN4C0I_H6Ujeg_gATJIZXadZOR4sew5w"
+      }
+      },
+      "preview2": {
+        "android": {
+          "gradleCommand": ":app:assembleRelease"
+        }
+      },
+      "preview3": {
+        "developmentClient": true
+      },
+      "preview4": {
+        "distribution": "internal"
+      },
+      "production": {}
+    }
+  }
+  
