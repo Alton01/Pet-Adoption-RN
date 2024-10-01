@@ -20,16 +20,14 @@ export default function Index() {
   };
 
   return (
-    user && (
-      <SafeAreaView>
-        <View>
-          {user ? (
-            <Redirect href={"/(tabs)/home"} />
-          ) : (
-            <Redirect href={"/login/index"} />
-          )}
-        </View>
-      </SafeAreaView>
-    )
+    <SafeAreaView>
+      <View>
+        {user ? (
+          <Redirect href={"/(tabs)/home"} />
+        ) : (
+          <Redirect href={"/login/index"} />
+        )}
+      </View>
+    </SafeAreaView>
   );
 }
