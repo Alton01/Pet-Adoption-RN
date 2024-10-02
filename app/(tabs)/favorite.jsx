@@ -29,10 +29,10 @@ export default function Favorite() {
     getFavPetList(result?.favorites);
   };
 
-  const getFavPetList = async (favId_) => {
+  const getFavPetList = async (favIds) => {
     setLoader(true);
     setFavPetList([]);
-    const q = query(collection(db, "Pets"), where("id", "in", favId_));
+    const q = query(collection(db, "Pets"), where("id", "in", favIds));
     const querySnapshot = await getDocs(q);
 
     querySnapshot.forEach((doc) => {
